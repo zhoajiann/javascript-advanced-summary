@@ -1,19 +1,13 @@
 # JavaScript发展历程及语言特点  
 #### （1）JavaScript发展历程  
 1.前端JavaScript由ECMAScript（ES是JavaScript的语法标准）、DOM（文档对象模型）、BOM（浏览器对象模型）构成  
-                                    ES（核心语言）  
-客户端JavaScript（宿主环境是浏览器） BOM  
-                                    DOM    宿主对象（宿主环境提供的对象）  
-浏览器提供DOM、BOM  
+客户端JavaScript（宿主环境是浏览器）：ES（核心语言）、BOM和DOM是宿主对象（宿主环境提供的对象）即客户端JavaScript（宿主环境是浏览器）  
 JavaScript在不同的运行环境，有着不同的内置宿主对象  
 JavaScript 和 DOM 并不是不可分割的，它们的语言标准相互独立  
 DOM 对 JavaScript 来说，是宿主对象，是语言中可更换的部分  
 **ECMAScript 对 JavaScript 来说，是核心语言，是不可被替代的功能**  
 **一个语言能做什么取决于运行平台（宿主环境），宿主环境提供宿主对象，宿主对象帮助完成不同的功能**  
-                                     ES（核心语言）   
-服务端JavaScript（宿主环境是node.js） fs  
-                                     …      宿主对象（宿主环境提供的对象）  
-
+服务端JavaScript（宿主环境是node.js）：ES（核心语言）、fs等是宿主对象（宿主环境提供的对象）  
 2.JavaScript在客户端如何运行？**浏览器下载JavaScript脚本文件后，由浏览器 JavaScript 引擎解释执行。浏览器中的JavaScript引擎将JavaScript语言进行解释（解释成浏览器认识的）执行。**  
 Chrome的JavaScript实现方式（JS引擎）是V8（浏览器不同其JS引擎也不同），Node也用V8解释执行  
 不同的浏览器对JS的支持力度不同，即存在兼容  
