@@ -51,7 +51,7 @@ console.log( typeof  NaN);//Number
 **NaN != NaN**  
 isNaN( ) 函数用来检测参数是否为 NaN 值，参数是 "NaN" 时返回 true，否则返回 false  
 isNaN("123abc");//true  
-```
+```JavaScript
 var a1;
 if (a1 == a1) {
     console.log(a1 * 1);//NaN,执行(undefined==undefined)
@@ -86,7 +86,7 @@ c.	“+”运算符左右两侧（有一侧就算）有字符串时为拼接运�
 b.	强制转换  
 Boolean()  
 c.	逻辑运算符会将数据类型转换为布尔类型之后再做运算  
-```
+```javascript
 Var a;
 Console.log(a+1);//NaN
 Console.log(!a+1);//2,
